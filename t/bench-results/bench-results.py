@@ -20,4 +20,4 @@ for i in logs:
 	data.append([patches, hours])
 data.sort(cmp=cmp_data)
 for i in data:
-	print "%s %s" % (i[0], i[1])
+	print "{0!s} {1!s}".format(i[0], i[1])
